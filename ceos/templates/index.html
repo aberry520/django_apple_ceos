@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for ceos in Ceos %}
+<ul>
+    <li>{{ceos.name}}</li>
+</ul>
+{% endfor %}
+{% endblock %}
